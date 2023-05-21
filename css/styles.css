@@ -72,7 +72,7 @@ body{
 
 /* Header */
 
-.header-logo span{
+.header-logo-part{
     color: var(--secondary-text-color);
 }
 
@@ -114,13 +114,16 @@ body{
     background: var(--accent-color);
 }
 
-.hero-btn:hover{
+.hero-btn:is(:hover, :focus){
     background: var(--hover-focus-active-color);
 }
 
 /* Team */
 .team{
     background-color: var(--background-color);
+}
+.team-item{
+    background-color:var(--white-color);
 }
 .team-name {
     text-align: center;
@@ -136,7 +139,7 @@ body{
     background: var(--secondary-text-color);
 }
 
-.footer-logo span{
+.footer-logo-part{
     color: var(--footer-text-color);
 }
 
