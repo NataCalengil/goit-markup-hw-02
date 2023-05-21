@@ -1,6 +1,6 @@
 :root{
-    --main-color: #2E2F42;
-    --secondary-text-color: #434455;
+    --secondary-text-color: #2E2F42;
+    --body-text-color: #434455;
     --footer-text-color: #F4F4FD;
     --accent-color: #4D5AE5;
     --hover-focus-active-color:#404BBF;
@@ -14,6 +14,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
+    color:var(--body-text-color);
 }
 
 .link-none{
@@ -40,6 +42,7 @@ body{
     text-align: center;
     letter-spacing: var(--main-letter-spacing);
     text-transform: capitalize;
+    color:var(--secondary-text-color);
 }
 
 .second-title{
@@ -47,13 +50,13 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: var(--main-letter-spacing);
+    color:var(--secondary-text-color);
 }
 
 .main-text{
     font-size: var(--main-text-size);
     line-height: 1.5;
     letter-spacing: var(--main-letter-spacing);
-    color: var(--secondary-text-color);
 }
 
 .btn{
@@ -71,15 +74,14 @@ body{
 
 .header{
     border-bottom: var(--border-color);
-
 }
 .header-logo span{
-    color: var(--main-color);
+    color: var(--secondary-text-color);
 }
 
 .header-nav-link {
     font-weight: 500;
-    color: var(--main-color);
+    color: var(--secondary-text-color);
 }
 
 .header-nav-link:is(:hover, :focus){
@@ -88,7 +90,7 @@ body{
 
 .header-address-link {
     font-style: normal;
-    color:var(--secondary-text-color);
+    color:var(--body-text-color);
 }
 
 .header-address-link:is(:hover, :focus){
@@ -99,7 +101,7 @@ body{
 /* Hero */
 
 .hero {
-    background-color: var(--main-color);
+    background-color: var(--secondary-text-color);
 }
 
 .hero-title {
@@ -133,7 +135,7 @@ body{
 /* Footer */
 
 .footer {
-    background: var(--main-color);
+    background: var(--secondary-text-color);
 }
 
 .footer-logo span{
