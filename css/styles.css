@@ -57,6 +57,7 @@ body{
     font-size: var(--main-text-size);
     line-height: 1.5;
     letter-spacing: var(--main-letter-spacing);
+    color:var(--body-text-color);
 }
 
 .btn{
