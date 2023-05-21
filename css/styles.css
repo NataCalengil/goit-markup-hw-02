@@ -18,11 +18,11 @@ body{
     color:var(--body-text-color);
 }
 
-.link-none{
+.link{
     text-decoration: none;
 }
 
-.list-none{
+.list{
     list-style: none;
 }
 
