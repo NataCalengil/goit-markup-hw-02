@@ -72,9 +72,6 @@ body{
 
 /* Header */
 
-.header{
-    border-bottom: var(--border-color);
-}
 .header-logo span{
     color: var(--secondary-text-color);
 }
@@ -87,9 +84,10 @@ body{
 .header-nav-link:is(:hover, :focus){
     color:var(--hover-focus-active-color);
 }
-
-.header-address-link {
+.header-address{
     font-style: normal;
+}
+.header-address-link {
     color:var(--body-text-color);
 }
 
